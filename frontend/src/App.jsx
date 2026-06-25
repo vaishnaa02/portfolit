@@ -10,13 +10,13 @@ function App() {
             Hi, I'm <span>Vaishnaa S</span>
           </h1>
 
-          <h2>B.E Electronics and Instrumentation</h2>
+          <h2>B.E Electronics and Instrumentation Engineering</h2>
 
           <p>
             Electronics and Instrumentation Engineering student passionate
-            about software development, IoT systems, Artificial Intelligence,
-            and MERN Stack development. I enjoy building innovative projects
-            that solve real-world problems.
+            about Full Stack Development, IoT Systems, Artificial Intelligence,
+            and MERN Stack Development. I enjoy building innovative solutions
+            that solve real-world problems and improve efficiency.
           </p>
 
           <a href="#contact" className="btn">
@@ -30,11 +30,11 @@ function App() {
         <h2 className="title">About Me</h2>
 
         <p className="text">
-          I am Vaishnaa S, currently pursuing B.E Electronics and
-          Instrumentation Engineering. I am interested in
-          Full Stack Development, Embedded Systems, IoT, and AI-based
-          technologies. I continuously improve my technical skills by
-          working on projects and learning modern technologies.
+          I am Vaishnaa S, pursuing B.E Electronics and Instrumentation
+          Engineering. I am passionate about software development,
+          embedded systems, IoT applications, and AI technologies.
+          I continuously improve my technical skills through project
+          development and hands-on learning experiences.
         </p>
       </section>
 
@@ -44,17 +44,20 @@ function App() {
 
         <div className="skills">
           <div className="card">Python</div>
-          <div className="card">C Programming</div>
+          <div className="card">C</div>
           <div className="card">Java</div>
-          <div className="card">HTML</div>
-          <div className="card">CSS</div>
+          <div className="card">HTML5</div>
+          <div className="card">CSS3</div>
           <div className="card">JavaScript</div>
-          <div className="card">React JS</div>
-          <div className="card">Node JS</div>
-          <div className="card">Express JS</div>
-          <div className="card">MongoDB</div>
+          <div className="card">React.js</div>
+          <div className="card">Node.js</div>
+          <div className="card">Express.js</div>
+          <div className="card">MongoDB Atlas</div>
           <div className="card">MERN Stack</div>
+          <div className="card">REST API</div>
+          <div className="card">Git & GitHub</div>
           <div className="card">IoT</div>
+          <div className="card">ESP32</div>
         </div>
       </section>
 
@@ -63,33 +66,53 @@ function App() {
         <h2 className="title">Projects</h2>
 
         <div className="projects">
+
           <div className="project-card">
             <h3>
               Intelligent Solar Energy Monitoring System and Fault Detection
             </h3>
+
             <p>
-              Developed a smart monitoring system for solar panels using
-              sensors, ESP32, and AI-based fault detection techniques to
-              improve efficiency and maintenance.
+              Developed an IoT-based solar energy monitoring system using
+              ESP32 and sensors. The system monitors solar panel performance
+              and uses intelligent fault detection techniques to improve
+              efficiency and maintenance.
             </p>
           </div>
 
           <div className="project-card">
             <h3>Attendance Management System</h3>
+
             <p>
-              Built a web-based attendance management system using modern
-              web technologies for efficient student record tracking.
+              Developed a Full Stack Attendance Management System using
+              React.js, Node.js, Express.js, MongoDB Atlas, HTML, CSS,
+              and JavaScript. The system allows attendance marking,
+              stores daily attendance records in MongoDB Atlas,
+              displays present and absent counts, and provides
+              attendance reset functionality.
             </p>
+
+            <a
+              href="https://attendance-system-6gb6.onrender.com"
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              🔗 View Live Project
+            </a>
           </div>
 
           <div className="project-card">
             <h3>Gas Leakage Detection System</h3>
+
             <p>
-              Designed an IoT-based gas leakage detection system using
-              sensors and microcontrollers to improve safety in homes
-              and industries.
+              Designed and implemented an IoT-based gas leakage detection
+              system using gas sensors and microcontrollers to provide
+              real-time alerts and improve safety in residential and
+              industrial environments.
             </p>
           </div>
+
         </div>
       </section>
 
@@ -99,10 +122,13 @@ function App() {
 
         <div className="education">
           <h3>B.E Electronics and Instrumentation Engineering</h3>
-          
+          <p>
+            Currently pursuing Bachelor's Degree in Electronics and
+            Instrumentation Engineering.
+          </p>
 
           <h3>Location</h3>
-          <p>Perundurai, Erode, Tamil Nadu</p>
+          <p>Perundurai, Erode, Tamil Nadu, India</p>
         </div>
       </section>
 
@@ -111,9 +137,9 @@ function App() {
         <h2 className="title">Contact Me</h2>
 
         <div className="contact">
-          <p>📧 vaishnaa0207@gmail.com</p>
-          <p>📱 +91 9944091019</p>
-          <p>📍 Perundurai, Erode, Tamil Nadu</p>
+          <p>📧 Email: vaishnaa0207@gmail.com</p>
+          <p>📱 Phone: +91 9944091019</p>
+          <p>📍 Location: Perundurai, Erode, Tamil Nadu</p>
 
           <div className="socials">
             <a
