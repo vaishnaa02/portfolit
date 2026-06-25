@@ -15,8 +15,8 @@ function App() {
           <p>
             Electronics and Instrumentation Engineering student passionate
             about Full Stack Development, IoT Systems, Artificial Intelligence,
-            and MERN Stack Development. I enjoy building innovative solutions
-            that solve real-world problems and improve efficiency.
+            and MERN Stack Development. I enjoy building innovative projects
+            that solve real-world problems and create meaningful impact.
           </p>
 
           <a href="#contact" className="btn">
@@ -30,11 +30,12 @@ function App() {
         <h2 className="title">About Me</h2>
 
         <p className="text">
-          I am Vaishnaa S, pursuing B.E Electronics and Instrumentation
-          Engineering. I am passionate about software development,
-          embedded systems, IoT applications, and AI technologies.
-          I continuously improve my technical skills through project
-          development and hands-on learning experiences.
+          I am Vaishnaa S, currently pursuing B.E Electronics and
+          Instrumentation Engineering. I am interested in Full Stack
+          Development, Embedded Systems, IoT, Artificial Intelligence,
+          and modern web technologies. I continuously enhance my
+          technical skills through hands-on projects and practical
+          learning experiences.
         </p>
       </section>
 
@@ -44,7 +45,7 @@ function App() {
 
         <div className="skills">
           <div className="card">Python</div>
-          <div className="card">C</div>
+          <div className="card">C Programming</div>
           <div className="card">Java</div>
           <div className="card">HTML5</div>
           <div className="card">CSS3</div>
@@ -67,6 +68,7 @@ function App() {
 
         <div className="projects">
 
+          {/* Project 1 */}
           <div className="project-card">
             <h3>
               Intelligent Solar Energy Monitoring System and Fault Detection
@@ -74,26 +76,33 @@ function App() {
 
             <p>
               Developed an IoT-based solar energy monitoring system using
-              ESP32 and sensors. The system monitors solar panel performance
-              and uses intelligent fault detection techniques to improve
-              efficiency and maintenance.
+              ESP32, sensors, and intelligent fault detection techniques.
+              The system monitors solar panel performance and helps improve
+              efficiency through real-time monitoring and analysis.
             </p>
           </div>
 
+          {/* Project 2 */}
           <div className="project-card">
             <h3>Attendance Management System</h3>
 
             <p>
               Developed a Full Stack Attendance Management System using
               React.js, Node.js, Express.js, MongoDB Atlas, HTML, CSS,
-              and JavaScript. The system allows attendance marking,
-              stores daily attendance records in MongoDB Atlas,
-              displays present and absent counts, and provides
-              attendance reset functionality.
+              and JavaScript. The application allows users to mark daily
+              attendance, automatically stores attendance records in
+              MongoDB Atlas, displays present and absent counts, and
+              provides attendance reset functionality through a responsive
+              user interface.
+            </p>
+
+            <p>
+              <strong>Technologies:</strong> React.js, Node.js,
+              Express.js, MongoDB Atlas, HTML, CSS, JavaScript
             </p>
 
             <a
-              href="https://attendance-system-6gb6.onrender.com"
+              href="https://attendance-system-1-frontend-dgzu.onrender.com/"
               target="_blank"
               rel="noreferrer"
               className="project-link"
@@ -102,14 +111,14 @@ function App() {
             </a>
           </div>
 
+          {/* Project 3 */}
           <div className="project-card">
             <h3>Gas Leakage Detection System</h3>
 
             <p>
-              Designed and implemented an IoT-based gas leakage detection
-              system using gas sensors and microcontrollers to provide
-              real-time alerts and improve safety in residential and
-              industrial environments.
+              Designed an IoT-based gas leakage detection system using
+              gas sensors and microcontrollers to provide real-time
+              alerts and improve safety in homes and industries.
             </p>
           </div>
 
@@ -122,9 +131,11 @@ function App() {
 
         <div className="education">
           <h3>B.E Electronics and Instrumentation Engineering</h3>
+
           <p>
-            Currently pursuing Bachelor's Degree in Electronics and
-            Instrumentation Engineering.
+            Pursuing Bachelor's Degree in Electronics and Instrumentation
+            Engineering with strong interest in Software Development,
+            IoT, and Artificial Intelligence.
           </p>
 
           <h3>Location</h3>
@@ -139,7 +150,7 @@ function App() {
         <div className="contact">
           <p>📧 Email: vaishnaa0207@gmail.com</p>
           <p>📱 Phone: +91 9944091019</p>
-          <p>📍 Location: Perundurai, Erode, Tamil Nadu</p>
+          <p>📍 Perundurai, Erode, Tamil Nadu, India</p>
 
           <div className="socials">
             <a
